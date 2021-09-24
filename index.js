@@ -50,7 +50,7 @@ function ChangeBorder(input){
         box.borderRadius = `${input.value}px`;
     }else{
         box.borderRadius = `${inputs[0].value}px ${inputs[1].value}px ${inputs[3].value}px ${inputs[2].value}px`;
-        if(input.value != "" && connected)
+        if(input.value != "")
             document.querySelector("#result").innerHTML = `border-radius: ${inputs[0].value}px ${inputs[1].value}px ${inputs[3].value}px ${inputs[2].value}px`;
     }
 }
